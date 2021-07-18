@@ -75,7 +75,6 @@ func main() {
 
 	// Join the password words
 	password := strings.Join(words, *sep)
-	fmt.Printf("\nYOUR PASSWORD IS: %s\n", password)
-	fmt.Println()
+	fmt.Println(password)
 
 }
