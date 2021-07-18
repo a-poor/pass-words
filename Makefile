@@ -1,4 +1,4 @@
-.PHONY=build
+.PHONY: build
 build:
 	@echo "Building..."
 	go build -o ./build/pass-words pass-words.go
